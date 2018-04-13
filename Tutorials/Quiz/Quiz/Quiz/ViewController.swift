@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
+    @IBOutlet var input: UITextField!
     
     let questions: [String] = [
     "What is 7+7?",
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
      "Montpelier",
      "Grapes"]
     
+    var 😀 : Int = 2
     var currentQuestionIndex: Int = 0
     
     @IBAction func showNextQuestion( _ sender: UIButton )
