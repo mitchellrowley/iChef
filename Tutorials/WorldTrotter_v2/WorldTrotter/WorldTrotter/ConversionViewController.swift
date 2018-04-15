@@ -121,18 +121,18 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
         let Start:Int = 1
         let End:Int = 4
         let result:Int = randomIntFrom(start: Start, to: End)
-        switch result {
-        case 1:
-            self.view.backgroundColor = UIColor.blue
-        case 2:
-            self.view.backgroundColor = UIColor.cyan
-        case 3:
-            self.view.backgroundColor = UIColor.brown
-        case 4:
-            self.view.backgroundColor = UIColor.clear
-        default:
-            self.view.backgroundColor = UIColor.black
-        }
+//        switch result {
+//        case 1:
+//            self.view.backgroundColor = UIColor.blue
+//        case 2:
+//            self.view.backgroundColor = UIColor.cyan
+//        case 3:
+//            self.view.backgroundColor = UIColor.brown
+//        case 4:
+//            self.view.backgroundColor = UIColor.clear
+//        default:
+//            self.view.backgroundColor = UIColor.black
+//        }
     }
     
     // using a closure to instanciate a number formatter
