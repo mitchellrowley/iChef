@@ -92,6 +92,16 @@
             </objects>
             <point key="canvasLocation" x="948" y="909"/>
         </scene>
+        <!--Web-->
+        <scene sceneID="65z-ps-KzR">
+            <objects>
+                <viewController title="Web" id="192-kM-lQR" customClass="WebViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Web" id="mTx-Vz-kRj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lBE-ut-GVR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1906" y="902"/>
+        </scene>
         <!--Map-->
         <scene sceneID="dB1-ol-Kxe">
             <objects>
@@ -108,12 +118,14 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="l8L-kc-J3E" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DPE-Sx-qHe">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Khq-YX-YEI"/>
                         <segue destination="Ehr-4g-ag3" kind="relationship" relationship="viewControllers" id="aLS-Ob-cea"/>
+                        <segue destination="192-kM-lQR" kind="relationship" relationship="viewControllers" id="n4O-PA-gbS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2k-gx-Hnc" userLabel="First Responder" sceneMemberID="firstResponder"/>
