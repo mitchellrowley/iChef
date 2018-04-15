@@ -26,6 +26,15 @@ class ViewController: UIViewController {
     var 😀 : Int = 2
     var currentQuestionIndex: Int = 0
     
+    func animateLabelTransitions() {
+        let animationClosure = { () -> Void in
+            self.questionLabel.alpha = 1
+            
+        }
+        
+        // Animate the alpha
+        UIView.animate(withDuration: 0.5, animations: animationClosure )
+    }
     @IBAction func showNextQuestion( _ sender: UIButton )
     {
         currentQuestionIndex += 1
