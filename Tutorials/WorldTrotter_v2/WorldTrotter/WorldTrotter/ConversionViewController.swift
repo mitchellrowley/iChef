@@ -29,6 +29,13 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
 //        print( "Current text: \(textField.text)" )
 //        print( "Replacement text: \(string)" )
 //
+        let allowedCharacterSet = CharacterSet(charactersIn: "0123456789.")
+        let replacementStringCharacterSet = CharacterSet(charactersIn: string)
+        if !replacementStringCharacterSet.isSubset(of: allowedCharacterSet) {
+            print("Rejected (Invalid Character)")
+            return false
+        }
+        
         let existingTextHasDecimalSeparator = textField.text?.range( of: "." )
         let replacementTextHasDecimalSeparator = string.range(of: ".")
         
