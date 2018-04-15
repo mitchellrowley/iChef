@@ -103,7 +103,36 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print( "ConversionViewController loaded its view.")
         updateCelsiusLabel()
+    }
+    
+    func randomIntFrom(start: Int, to end: Int) -> Int {
+        var a = start
+        var b = end
+        // swap to prevent negative integer crashes
+        if a > b {
+            swap(&a, &b)
+        }
+        return Int(arc4random_uniform(UInt32(b - a + 1))) + a
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let Start:Int = 1
+        let End:Int = 4
+        let result:Int = randomIntFrom(start: Start, to: End)
+        switch result {
+        case 1:
+            self.view.backgroundColor = UIColor.blue
+        case 2:
+            self.view.backgroundColor = UIColor.cyan
+        case 3:
+            self.view.backgroundColor = UIColor.brown
+        case 4:
+            self.view.backgroundColor = UIColor.clear
+        default:
+            self.view.backgroundColor = UIColor.black
+        }
     }
     
     // using a closure to instanciate a number formatter
