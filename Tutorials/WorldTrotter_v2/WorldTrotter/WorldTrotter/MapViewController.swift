@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class MapViewController : UIViewController
+class MapViewController : UIViewController, MKMapViewDelegate
 {
     var mapView: MKMapView!
     
@@ -28,6 +28,9 @@ class MapViewController : UIViewController
         segmentedControl.addTarget(self, action: #selector( MapViewController.mapTypeChanged(_:)), for: .valueChanged)
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(segmentedControl)
+        
+
+        
         let margins = view.layoutMarginsGuide
         let topConstraint = segmentedControl.topAnchor.constraint( equalTo: topLayoutGuide.bottomAnchor, constant: 8 )
         let leadingConstraint = segmentedControl.leadingAnchor.constraint( equalTo: margins.leadingAnchor )
@@ -36,6 +39,15 @@ class MapViewController : UIViewController
         topConstraint.isActive = true
         leadingConstraint.isActive = true
         trailingConstraint.isActive = true
+        
+        let zoomLocationControl = UIButton(  )
+        zoomLocationControl.setTitleColor(UIColor.blue, for: .normal)
+        zoomLocationControl.frame = CGRect(x:15, y:+50, width:100, height:100)
+        zoomLocationControl.setTitle("zoom", for: .normal)
+        var color = UIColor.darkGray
+        color = color.withAlphaComponent(0.5)
+        zoomLocationControl.backgroundColor = color
+        view.addSubview(zoomLocationControl)
     }
     
     @objc func mapTypeChanged( _ segControl: UISegmentedControl ) {
