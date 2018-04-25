@@ -27,7 +27,8 @@ class CookbookController : UIViewController
         yOffset = 0
         scrollSpeed = 2
         
-        images = [
+        images =
+        [
             UIImage( named: "A" ),
             UIImage( named: "B" ),
             UIImage( named: "C" ),

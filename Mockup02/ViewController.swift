@@ -11,9 +11,12 @@ import GoogleMobileAds
 import AudioToolbox
 
 class ViewController: UIViewController, GADBannerViewDelegate
+    //GADBannerViewDelegate was added
 {
     var adMobBannerView = GADBannerView()
-    let ADMOB_BANNER_UNIT_ID = "ca-app pub-5979175509867442~9958975333"
+    // test ad unit id is ca-app-pub-3940256099942544/2934735716 //
+    let ADMOB_BANNER_UNIT_ID = "ca-app-pub-3940256099942544/2934735716"
+    //let ADMOB_BANNER_UNIT_ID = "ca-app pub-5979175509867442~9958975333"
     
     override func viewDidLoad()
     {
@@ -27,7 +30,11 @@ class ViewController: UIViewController, GADBannerViewDelegate
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    // MARK: -  ADMOB BANNER
+    
+    
+    //////////////////////// Added code from stack overflow allowing for ads///////////////////////////////////////////////////
+    
+    //MARK: -  ADMOB BANNER
     func initAdMobBanner() {
         
         if UIDevice.current.userInterfaceIdiom == .phone {

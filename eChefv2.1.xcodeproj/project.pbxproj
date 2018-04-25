@@ -10,10 +10,10 @@
 		5481B5732088DD1300664DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481B5722088DD1300664DDA /* AppDelegate.swift */; };
 		5481B5752088DD1300664DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481B5742088DD1300664DDA /* ViewController.swift */; };
 		5481B5782088DD1300664DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5481B5762088DD1300664DDA /* Main.storyboard */; };
-		5481B57A2088DD1500664DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5481B5792088DD1500664DDA /* Assets.xcassets */; };
 		5481B57D2088DD1500664DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5481B57B2088DD1500664DDA /* LaunchScreen.storyboard */; };
 		5481B5852088F3FD00664DDA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5481B5842088F3FD00664DDA /* HomeController.swift */; };
 		AA4BF9372090F26600DB3DAF /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4BF9362090F26600DB3DAF /* GoogleMobileAds.framework */; };
+		AA4BF9382091070500DB3DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5481B5792088DD1500664DDA /* Assets.xcassets */; };
 		AA5C929E2090EE56008C3490 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5C929D2090EE56008C3490 /* AudioToolbox.framework */; };
 		AA5C92A02090EE5A008C3490 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5C929F2090EE5A008C3490 /* HomeKit.framework */; };
 		AA5C92A22090EE5C008C3490 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5C92A12090EE5C008C3490 /* ExternalAccessory.framework */; };
@@ -27,6 +27,7 @@
 		AA64173C2090EF4B00E69141 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA64173B2090EF4B00E69141 /* MessageUI.framework */; };
 		AA64173E2090EF5700E69141 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA64173D2090EF5700E69141 /* StoreKit.framework */; };
 		AA6417402090EF5E00E69141 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA64173F2090EF5E00E69141 /* SystemConfiguration.framework */; };
+		AA73701C209115970062EC79 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73701B209115970062EC79 /* AccountController.swift */; };
 		D771F72120896E7400DABCF4 /* CookbookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D771F72020896E7400DABCF4 /* CookbookController.swift */; };
 		D771F723208FC8D700DABCF4 /* GraphicTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D771F722208FC8D700DABCF4 /* GraphicTimer.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		AA64173B2090EF4B00E69141 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		AA64173D2090EF5700E69141 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		AA64173F2090EF5E00E69141 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AA73701B209115970062EC79 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
 		D771F72020896E7400DABCF4 /* CookbookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookController.swift; sourceTree = "<group>"; };
 		D771F722208FC8D700DABCF4 /* GraphicTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 				5481B5842088F3FD00664DDA /* HomeController.swift */,
 				D771F72020896E7400DABCF4 /* CookbookController.swift */,
 				D771F722208FC8D700DABCF4 /* GraphicTimer.swift */,
+				AA73701B209115970062EC79 /* AccountController.swift */,
 			);
 			path = Mockup02;
 			sourceTree = "<group>";
@@ -217,7 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5481B57D2088DD1500664DDA /* LaunchScreen.storyboard in Resources */,
-				5481B57A2088DD1500664DDA /* Assets.xcassets in Resources */,
+				AA4BF9382091070500DB3DAF /* Assets.xcassets in Resources */,
 				5481B5782088DD1300664DDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +235,7 @@
 				5481B5752088DD1300664DDA /* ViewController.swift in Sources */,
 				D771F723208FC8D700DABCF4 /* GraphicTimer.swift in Sources */,
 				5481B5732088DD1300664DDA /* AppDelegate.swift in Sources */,
+				AA73701C209115970062EC79 /* AccountController.swift in Sources */,
 				D771F72120896E7400DABCF4 /* CookbookController.swift in Sources */,
 				5481B5852088F3FD00664DDA /* HomeController.swift in Sources */,
 			);

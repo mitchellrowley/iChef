@@ -12,34 +12,60 @@
         <!--Account-->
         <scene sceneID="7s1-HY-HWA">
             <objects>
-                <viewController id="NTH-qK-45G" userLabel="Account" sceneMemberID="viewController">
+                <viewController id="NTH-qK-45G" userLabel="Account" customClass="AccountController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H6D-PW-hGM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cookbook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcL-7N-Nkp">
-                                <rect key="frame" x="126" y="70" width="79" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8M-Pp-5Sw">
-                                <rect key="frame" x="29" y="61" width="47" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt;&lt;"/>
-                                <connections>
-                                    <segue destination="Ff1-0l-pee" kind="show" id="F3p-TT-FJo"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="15u-ay-bPa">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ry9-uk-H3F">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8M-Pp-5Sw">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="30"/>
+                                                <state key="normal" title="&lt;&lt;"/>
+                                                <connections>
+                                                    <segue destination="Ff1-0l-pee" kind="show" id="F3p-TT-FJo"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcL-7N-Nkp">
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="atX-VS-iWt">
+                                        <rect key="frame" x="0.0" y="30" width="375" height="617"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FbJ-t8-dM0">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ox6-qq-RpQ" firstAttribute="trailing" secondItem="15u-ay-bPa" secondAttribute="trailing" id="cge-Z2-NIi"/>
+                            <constraint firstItem="15u-ay-bPa" firstAttribute="leading" secondItem="ox6-qq-RpQ" secondAttribute="leading" id="dCM-g8-Gzj"/>
+                            <constraint firstItem="15u-ay-bPa" firstAttribute="top" secondItem="ox6-qq-RpQ" secondAttribute="top" id="iaq-vV-fxF"/>
+                            <constraint firstItem="ox6-qq-RpQ" firstAttribute="bottom" secondItem="15u-ay-bPa" secondAttribute="bottom" id="xqW-m9-gmi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ox6-qq-RpQ"/>
                     </view>
+                    <connections>
+                        <outlet property="container" destination="FbJ-t8-dM0" id="d2e-Mb-hlV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KE7-ha-mPn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2494" y="-368"/>
+            <point key="canvasLocation" x="2493.5999999999999" y="-368.36581709145429"/>
         </scene>
         <!--Login-->
         <scene sceneID="tne-QT-ifu">
@@ -154,10 +180,10 @@
                                         <rect key="frame" x="0.0" y="50" width="359" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zId-Q6-xtz">
-                                                <rect key="frame" x="0.0" y="0.0" width="70" height="50"/>
-                                                <state key="normal" title="Cookbook"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="50"/>
+                                                <state key="normal" title="Account"/>
                                                 <connections>
-                                                    <segue destination="NTH-qK-45G" kind="show" id="N1X-lh-LIk"/>
+                                                    <segue destination="NTH-qK-45G" kind="show" id="FZr-Xt-FUJ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZA-a9-rIQ">
@@ -302,6 +328,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="F3p-TT-FJo"/>
+        <segue reference="7d8-kM-70P"/>
     </inferredMetricsTieBreakers>
 </document>
