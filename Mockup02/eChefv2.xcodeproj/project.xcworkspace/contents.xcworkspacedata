@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Mockup02.xcodeproj">
+      location = "self:/Users/gatekeeper/Documents/GitHub/Capstone/iChef/Mockup02/eChefv2.xcodeproj">
    </FileRef>
 </Workspace>
