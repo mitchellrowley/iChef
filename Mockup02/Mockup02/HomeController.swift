@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import GoogleMobileAds
+import AudioToolbox
 
 
 class HomeController : UIViewController
