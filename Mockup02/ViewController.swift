@@ -32,7 +32,7 @@ class ViewController: UIViewController, GADBannerViewDelegate
     }
     
     
-    //////////////////////// Added code from stack overflow allowing for ads///////////////////////////////////////////////////
+    ////////////////////////// Added code from stack overflow allowing for ads//////////////////////////////////
     
     //MARK: -  ADMOB BANNER
     func initAdMobBanner() {
