@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA73702A209BC4E60062EC79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA737029209BC4E60062EC79 /* AppDelegate.swift */; };
+		AA73702C209BC4E60062EC79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73702B209BC4E60062EC79 /* ViewController.swift */; };
+		AA73702F209BC4E60062EC79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA73702D209BC4E60062EC79 /* Main.storyboard */; };
+		AA737031209BC4E80062EC79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA737030209BC4E80062EC79 /* Assets.xcassets */; };
+		AA737034209BC4E80062EC79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA737032209BC4E80062EC79 /* LaunchScreen.storyboard */; };
+		AA73703F209BC4E90062EC79 /* eChef_v2_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA73703E209BC4E90062EC79 /* eChef_v2_2Tests.swift */; };
+		AA73704A209BC4E90062EC79 /* eChef_v2_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA737049209BC4E90062EC79 /* eChef_v2_2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA73703B209BC4E90062EC79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA73701E209BC4E60062EC79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA737025209BC4E60062EC79;
+			remoteInfo = "eChef v2.2";
+		};
+		AA737046209BC4E90062EC79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA73701E209BC4E60062EC79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA737025209BC4E60062EC79;
+			remoteInfo = "eChef v2.2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA737026209BC4E60062EC79 /* eChef v2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eChef v2.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA737029209BC4E60062EC79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA73702B209BC4E60062EC79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA73702E209BC4E60062EC79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA737030209BC4E80062EC79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA737033209BC4E80062EC79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA737035209BC4E80062EC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA73703A209BC4E90062EC79 /* eChef v2.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eChef v2.2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA73703E209BC4E90062EC79 /* eChef_v2_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eChef_v2_2Tests.swift; sourceTree = "<group>"; };
+		AA737040209BC4E90062EC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA737045209BC4E90062EC79 /* eChef v2.2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eChef v2.2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA737049209BC4E90062EC79 /* eChef_v2_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eChef_v2_2UITests.swift; sourceTree = "<group>"; };
+		AA73704B209BC4E90062EC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA737023209BC4E60062EC79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA737037209BC4E90062EC79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA737042209BC4E90062EC79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA73701D209BC4E60062EC79 = {
+			isa = PBXGroup;
+			children = (
+				AA737028209BC4E60062EC79 /* eChef v2.2 */,
+				AA73703D209BC4E90062EC79 /* eChef v2.2Tests */,
+				AA737048209BC4E90062EC79 /* eChef v2.2UITests */,
+				AA737027209BC4E60062EC79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA737027209BC4E60062EC79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA737026209BC4E60062EC79 /* eChef v2.2.app */,
+				AA73703A209BC4E90062EC79 /* eChef v2.2Tests.xctest */,
+				AA737045209BC4E90062EC79 /* eChef v2.2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA737028209BC4E60062EC79 /* eChef v2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA737029209BC4E60062EC79 /* AppDelegate.swift */,
+				AA73702B209BC4E60062EC79 /* ViewController.swift */,
+				AA73702D209BC4E60062EC79 /* Main.storyboard */,
+				AA737030209BC4E80062EC79 /* Assets.xcassets */,
+				AA737032209BC4E80062EC79 /* LaunchScreen.storyboard */,
+				AA737035209BC4E80062EC79 /* Info.plist */,
+			);
+			path = "eChef v2.2";
+			sourceTree = "<group>";
+		};
+		AA73703D209BC4E90062EC79 /* eChef v2.2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA73703E209BC4E90062EC79 /* eChef_v2_2Tests.swift */,
+				AA737040209BC4E90062EC79 /* Info.plist */,
+			);
+			path = "eChef v2.2Tests";
+			sourceTree = "<group>";
+		};
+		AA737048209BC4E90062EC79 /* eChef v2.2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA737049209BC4E90062EC79 /* eChef_v2_2UITests.swift */,
+				AA73704B209BC4E90062EC79 /* Info.plist */,
+			);
+			path = "eChef v2.2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA737025209BC4E60062EC79 /* eChef v2.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA73704E209BC4E90062EC79 /* Build configuration list for PBXNativeTarget "eChef v2.2" */;
+			buildPhases = (
+				AA737022209BC4E60062EC79 /* Sources */,
+				AA737023209BC4E60062EC79 /* Frameworks */,
+				AA737024209BC4E60062EC79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eChef v2.2";
+			productName = "eChef v2.2";
+			productReference = AA737026209BC4E60062EC79 /* eChef v2.2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA737039209BC4E90062EC79 /* eChef v2.2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA737051209BC4E90062EC79 /* Build configuration list for PBXNativeTarget "eChef v2.2Tests" */;
+			buildPhases = (
+				AA737036209BC4E90062EC79 /* Sources */,
+				AA737037209BC4E90062EC79 /* Frameworks */,
+				AA737038209BC4E90062EC79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA73703C209BC4E90062EC79 /* PBXTargetDependency */,
+			);
+			name = "eChef v2.2Tests";
+			productName = "eChef v2.2Tests";
+			productReference = AA73703A209BC4E90062EC79 /* eChef v2.2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA737044209BC4E90062EC79 /* eChef v2.2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA737054209BC4E90062EC79 /* Build configuration list for PBXNativeTarget "eChef v2.2UITests" */;
+			buildPhases = (
+				AA737041209BC4E90062EC79 /* Sources */,
+				AA737042209BC4E90062EC79 /* Frameworks */,
+				AA737043209BC4E90062EC79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA737047209BC4E90062EC79 /* PBXTargetDependency */,
+			);
+			name = "eChef v2.2UITests";
+			productName = "eChef v2.2UITests";
+			productReference = AA737045209BC4E90062EC79 /* eChef v2.2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA73701E209BC4E60062EC79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Pocket Chef LLC.";
+				TargetAttributes = {
+					AA737025209BC4E60062EC79 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AA737039209BC4E90062EC79 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AA737025209BC4E60062EC79;
+					};
+					AA737044209BC4E90062EC79 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AA737025209BC4E60062EC79;
+					};
+				};
+			};
+			buildConfigurationList = AA737021209BC4E60062EC79 /* Build configuration list for PBXProject "eChef v2.2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA73701D209BC4E60062EC79;
+			productRefGroup = AA737027209BC4E60062EC79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA737025209BC4E60062EC79 /* eChef v2.2 */,
+				AA737039209BC4E90062EC79 /* eChef v2.2Tests */,
+				AA737044209BC4E90062EC79 /* eChef v2.2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA737024209BC4E60062EC79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA737034209BC4E80062EC79 /* LaunchScreen.storyboard in Resources */,
+				AA737031209BC4E80062EC79 /* Assets.xcassets in Resources */,
+				AA73702F209BC4E60062EC79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA737038209BC4E90062EC79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA737043209BC4E90062EC79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA737022209BC4E60062EC79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA73702C209BC4E60062EC79 /* ViewController.swift in Sources */,
+				AA73702A209BC4E60062EC79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA737036209BC4E90062EC79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA73703F209BC4E90062EC79 /* eChef_v2_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA737041209BC4E90062EC79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA73704A209BC4E90062EC79 /* eChef_v2_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA73703C209BC4E90062EC79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA737025209BC4E60062EC79 /* eChef v2.2 */;
+			targetProxy = AA73703B209BC4E90062EC79 /* PBXContainerItemProxy */;
+		};
+		AA737047209BC4E90062EC79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA737025209BC4E60062EC79 /* eChef v2.2 */;
+			targetProxy = AA737046209BC4E90062EC79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA73702D209BC4E60062EC79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA73702E209BC4E60062EC79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA737032209BC4E80062EC79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA737033209BC4E80062EC79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA73704C209BC4E90062EC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA73704D209BC4E90062EC79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA73704F209BC4E90062EC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H537S2H9A;
+				INFOPLIST_FILE = "eChef v2.2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PocketChefllc.eChef-v2-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA737050209BC4E90062EC79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H537S2H9A;
+				INFOPLIST_FILE = "eChef v2.2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PocketChefllc.eChef-v2-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA737052209BC4E90062EC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H537S2H9A;
+				INFOPLIST_FILE = "eChef v2.2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PocketChefllc.eChef-v2-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eChef v2.2.app/eChef v2.2";
+			};
+			name = Debug;
+		};
+		AA737053209BC4E90062EC79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H537S2H9A;
+				INFOPLIST_FILE = "eChef v2.2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PocketChefllc.eChef-v2-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eChef v2.2.app/eChef v2.2";
+			};
+			name = Release;
+		};
+		AA737055209BC4E90062EC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H537S2H9A;
+				INFOPLIST_FILE = "eChef v2.2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PocketChefllc.eChef-v2-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eChef v2.2";
+			};
+			name = Debug;
+		};
+		AA737056209BC4E90062EC79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3H537S2H9A;
+				INFOPLIST_FILE = "eChef v2.2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PocketChefllc.eChef-v2-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eChef v2.2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA737021209BC4E60062EC79 /* Build configuration list for PBXProject "eChef v2.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA73704C209BC4E90062EC79 /* Debug */,
+				AA73704D209BC4E90062EC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA73704E209BC4E90062EC79 /* Build configuration list for PBXNativeTarget "eChef v2.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA73704F209BC4E90062EC79 /* Debug */,
+				AA737050209BC4E90062EC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA737051209BC4E90062EC79 /* Build configuration list for PBXNativeTarget "eChef v2.2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA737052209BC4E90062EC79 /* Debug */,
+				AA737053209BC4E90062EC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA737054209BC4E90062EC79 /* Build configuration list for PBXNativeTarget "eChef v2.2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA737055209BC4E90062EC79 /* Debug */,
+				AA737056209BC4E90062EC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA73701E209BC4E60062EC79 /* Project object */;
+}
